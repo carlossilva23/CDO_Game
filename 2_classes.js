@@ -16,11 +16,11 @@ let humanBody = new Body(true, 600, 206);
 // Example 2:
 
 class Schedule {
-    constructor(class1, class2, class3, class4) {
-        this.class1 = class1;
-        this.class2 = class2;
-        this.class3 = class3;
-        this.class4 = class4;
+    constructor(period1, period2, period3, period4) {
+        this.class1 = period1;
+        this.class2 = period2;
+        this.class3 = period3;
+        this.class4 = period4;
     }
 }
 
