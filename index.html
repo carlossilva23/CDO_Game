@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code Quest</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stats-box" id="stats" hidden>
+  <h2>Hero</h2>
+  <p><span>Name</span><span id="s-name"></span></p>
+  <p><span>Health</span><span id="s-health"></span></p>
+  <div class="bar"><div class="fill" id="hero-bar"></div></div>
+  <p><span>Attack</span><span id="s-attack"></span></p>
+  <p><span>Defense</span><span id="s-defense"></span></p>
+  <p><span>Gear</span><span id="s-gear"></span></p>
+</div>
+
+<div class="game-container">
+  <h1>Code Quest</h1>
+  <p class="subtitle">Learn JavaScript by building your hero</p>
+  <div class="nav" id="nav"></div>
+
+  <div class="lesson" id="lesson">
+    <p class="intro" id="intro"></p>
+    <pre class="code" id="code"></pre>
+    <div class="actions"><button id="check">Check my answers</button><button id="next" hidden>Next lesson</button></div>
+    <p class="fb" id="fb"></p>
+    <div class="output" id="out"></div>
+  </div>
+
+  <div id="game" hidden>
+    <div class="enemy" id="enemy" hidden>
+      <span id="enemy-name"></span>
+      <div class="bar"><div class="fill foe" id="enemy-bar"></div></div>
+    </div>
+    <div class="output" id="gout"></div>
+    <div class="actions" id="gact"></div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
